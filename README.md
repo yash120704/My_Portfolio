@@ -4,7 +4,7 @@ Personal portfolio website built with React, Vite, Tailwind CSS and Framer Motio
 
 ## Demo
 
-- Live demo: (your deployed URL here — e.g. https://your-vercel-url.vercel.app)
+- Live demo: https://my-portfolio-sand-eight-35.vercel.app/
 
 ## Features
 
