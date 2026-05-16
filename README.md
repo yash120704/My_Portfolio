@@ -1,16 +1,66 @@
-# React + Vite
+# Yash Kashyap — Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Personal portfolio website built with React, Vite, Tailwind CSS and Framer Motion. Showcases selected projects, skills, experience, certifications, and contact information.
 
-Currently, two official plugins are available:
+## Demo
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+- Live demo: (your deployed URL here — e.g. https://your-vercel-url.vercel.app)
 
-## React Compiler
+## Features
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- Responsive, modern UI built with Tailwind CSS
+- Smooth animations using Framer Motion
+- Sections: Home, About, Experience, Projects, Skills, Certifications, Contact
+- Vite-powered for fast development and small production bundles
 
-## Expanding the ESLint configuration
+## Tech Stack
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- React 18
+- Vite
+- Tailwind CSS
+- Framer Motion
+- React Three Fiber (3D/graphics)
+
+## Local Setup
+
+Install dependencies:
+
+```bash
+npm install
+```
+
+Run the development server:
+
+```bash
+npm run dev
+```
+
+Build for production:
+
+```bash
+npm run build
+```
+
+Preview production build locally:
+
+```bash
+npm run preview
+```
+
+## Deploying to Vercel
+
+1. Push the repository to GitHub (create a repo if needed).
+2. Import the repo into Vercel.
+3. Vercel will auto-detect Vite projects. Use `npm run build` as the build command and `dist` as the output directory.
+
+## Contributing
+
+- Feel free to open issues or PRs to suggest improvements or fixes.
+
+## License
+
+- MIT
+
+---
+
+Made with ❤️ by Yash Kashyap
