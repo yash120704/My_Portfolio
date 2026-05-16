@@ -1,0 +1,40 @@
+%PDF-1.4
+1 0 obj
+<< /Type /Catalog /Pages 2 0 R >>
+endobj
+2 0 obj
+<< /Type /Pages /Kids [3 0 R] /Count 1 >>
+endobj
+3 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 4 0 R >> >> /Contents 5 0 R >>
+endobj
+4 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica >>
+endobj
+5 0 obj
+<< /Length 778 >>
+stream
+BT /F1 24 Tf 54 760 Td (Yash Kashyap) Tj ET
+BT /F1 11 Tf 54 730 Td (B.Tech Computer Science, VIT Vellore \(2023-2027\)) Tj ET
+BT /F1 11 Tf 54 700 Td (CGPA: 9.52/10) Tj ET
+BT /F1 11 Tf 54 670 Td (Full-Stack Development | AI/ML) Tj ET
+BT /F1 11 Tf 54 640 Td (Email: yashkashyap1204@gmail.com | Phone: +91 81320 35635) Tj ET
+BT /F1 11 Tf 54 610 Td (GitHub: github.com/yash120704 | LinkedIn: linkedin.com/in/yashkashyap12) Tj ET
+BT /F1 11 Tf 54 580 Td (Experience: Web Development Intern, NIT Rourkela, Summer 2025) Tj ET
+BT /F1 11 Tf 54 550 Td (Projects: Hybrid Leak Detection, Traffic Density Prediction, Product Feature Extraction, Escape.exe) Tj ET
+BT /F1 11 Tf 54 520 Td (Skills: Python, JavaScript, React.js, Node.js, Django REST, FastAPI, PostgreSQL, Scikit-learn, NLP) Tj ET
+endstream
+endobj
+xref
+0 6
+0000000000 65535 f 
+0000000009 00000 n 
+0000000058 00000 n 
+0000000115 00000 n 
+0000000241 00000 n 
+0000000311 00000 n 
+trailer
+<< /Size 6 /Root 1 0 R >>
+startxref
+1140
+%%EOF
