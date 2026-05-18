@@ -49,7 +49,7 @@ export const hero = {
   roles: ['Full-Stack Developer', 'AI/ML Engineer', 'Problem Solver', 'Tech Innovator'],
   bio: 'B.Tech CSE @ VIT Vellore · CGPA 9.52',
   primaryCta: { label: 'View My Work', target: 'projects' },
-  secondaryCta: { label: 'Download Resume', href: siteMeta.resume },
+  secondaryCta: { label: 'Download Resume', href: 'https://drive.google.com/file/d/1RdC2OgI4chos_7tfefPQxFjq8Qc8Tizl/view?usp=drive_link' },
   scrollLabel: 'Scroll to explore',
 }
 
