@@ -51,11 +51,13 @@ export default function About() {
             <div className="relative mx-auto grid aspect-square max-w-[17rem] place-items-center">
               <div className="absolute inset-0 rounded-full bg-gradient-to-br from-indigo via-cyan to-white p-[2px] animate-pulseGlow" />
               <div className="absolute -inset-4 rounded-full border border-dashed border-cyan/35 animate-[spin_18s_linear_infinite]" />
-              <img
-                src={profileImage}
-                alt={about.imageAlt}
-                className="h-full w-full rounded-full object-cover"
-              />
+              <div className="relative z-10 h-full w-full rounded-full border border-white/10 overflow-hidden">
+                <img
+                  src={profileImage}
+                  alt={about.imageAlt}
+                  className="h-full w-full object-cover"
+                />
+              </div>
             </div>
 
             <div className="mt-8 grid gap-3">
