@@ -3,6 +3,7 @@ import { useEffect, useState } from 'react'
 import { useInView } from 'react-intersection-observer'
 import { about } from '../data/portfolioData'
 import SectionWrapper from './SectionWrapper'
+import profileImage from '../assets/Yash_K.jpg'
 
 const childVariants = {
   hidden: { opacity: 0, y: 26 },
@@ -50,10 +51,11 @@ export default function About() {
             <div className="relative mx-auto grid aspect-square max-w-[17rem] place-items-center">
               <div className="absolute inset-0 rounded-full bg-gradient-to-br from-indigo via-cyan to-white p-[2px] animate-pulseGlow" />
               <div className="absolute -inset-4 rounded-full border border-dashed border-cyan/35 animate-[spin_18s_linear_infinite]" />
-              <div className="relative grid h-full w-full place-items-center rounded-full border border-white/10 bg-midnight">
-                <span className="font-display text-6xl font-extrabold gradient-text">{about.initials}</span>
-                <span className="sr-only">{about.imageAlt}</span>
-              </div>
+              <img
+                src={profileImage}
+                alt={about.imageAlt}
+                className="h-full w-full rounded-full object-cover"
+              />
             </div>
 
             <div className="mt-8 grid gap-3">
